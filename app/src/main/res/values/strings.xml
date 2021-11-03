@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MenuApp</string>
+    <string name="nev_megad">Név megadása</string>
+    <string name="informacio">Információ</string>
+    <string name="elsoact">Első Activity</string>
+    <string name="addmeganeved">Add meg a neved</string>
+    <string name="mentes">Mentés</string>
 </resources>

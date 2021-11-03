@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SecondaryActivity">
 
     <TextView
         android:layout_width="match_parent"
@@ -15,23 +15,24 @@
         android:textAlignment="center"
         android:layout_marginTop="20dp"/>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
         android:orientation="vertical">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="@string/addmeganeved"
+            android:textSize="20sp"
+            android:id="@+id/editText_Nev"/>
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/nev_megad"
+            android:text="@string/mentes"
             android:textSize="20sp"
-            android:id="@+id/button_Nev"/>
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/informacio"
-            android:textSize="20sp"
-            android:id="@+id/button_informacio"/>
+            android:id="@+id/button_mentes"/>
     </LinearLayout>
 
 </RelativeLayout>
